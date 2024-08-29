@@ -36,7 +36,7 @@ public class role {
     @Column(nullable = false,updatable = false)
     private LocalDateTime createdDate;
 
-    @org.springframework.data.annotation.LastModifiedDate
+    @LastModifiedDate
     @Column(insertable = false)
     private LocalDateTime LastModifiedDate;
 }
